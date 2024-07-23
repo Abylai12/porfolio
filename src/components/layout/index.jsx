@@ -5,7 +5,6 @@ const Layout = ({ children }) => {
     <>
       <Header />
       {children}
-      <h1>hello</h1>
     </>
   );
 };

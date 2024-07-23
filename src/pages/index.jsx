@@ -1,7 +1,11 @@
+import About from "@/components/About/about";
+import Intro from "@/components/intro/intro";
+
 export default function Home() {
   return (
     <main>
-      <div className="red-text">Welcome</div>
+      <Intro />
+      <About />
     </main>
   );
 }

@@ -9,7 +9,7 @@ const Menu = () => {
     <div>
       <ul className="flex gap-4">
         {menuList.map((menu) => (
-          <li>
+          <li key={menu.menuId}>
             <a href={menu.link}>{menu.label}</a>
           </li>
         ))}
