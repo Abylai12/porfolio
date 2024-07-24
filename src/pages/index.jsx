@@ -1,4 +1,5 @@
 import About from "@/components/About/about";
+import Experience from "@/components/experience/experience";
 import Intro from "@/components/intro/intro";
 import Skill from "@/components/skill/skill";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Intro />
       <About />
       <Skill />
+      <Experience />
     </main>
   );
 }
