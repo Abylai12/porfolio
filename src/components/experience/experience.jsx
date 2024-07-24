@@ -2,43 +2,55 @@ import Tags from "../tags/tags";
 import ExperienceCard from "./experienceText";
 const ExperiencesContent = [
   {
-    Logo: "./images/pic.png",
-    position: "Junior",
+    logo: "./images/Group.png",
+    position: "Sr.Frontend Developer",
     date: "2014.08-Present",
-    jobRoles: ["devops", "fullstack"],
+    jobRoles: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "The job description should accurately reflect the duties and responsibilities of the position.",
+      "When well-written, it produces a realistic picture of a job and answers the question",
+      "“What does the person in this role actually do?”",
+    ],
   },
   {
-    Logo: "./images/pic.png",
-    position: "Junior",
+    logo: "./images/Group.png",
+    position: "Team Lead",
     date: "2014.08-Present",
-    jobRoles: ["devops", "fullstack"],
+    jobRoles: [
+      "A job description not only describes the position’s responsibilities,",
+      "it sets the foundation for recruiting",
+      "developing, and retaining talent and",
+      "also sets the stage for optimum work performance by clarifying responsibilities,",
+    ],
   },
   {
-    Logo: "./images/pic.png",
-    position: "Junior",
+    logo: "./images/Group.png",
+    position: "Full Stack Developer",
     date: "2014.08-Present",
-    jobRoles: ["devops", "fullstack"],
+    jobRoles: ["expected results, ", "and evaluation of performance"],
   },
 ];
 
 const Experience = () => {
   return (
-    <section>
-      <Tags textTag="Experience" />
-      <div>
-        <span className="text-gray-600 text-xl">
-          Here is a quick summary of my most recent experiences:
-        </span>
-      </div>
-      <div>
-        {ExperiencesContent.map(({ logo, position, date, jobRoles }) => (
-          <ExperienceCard
-            companyLogo={logo}
-            position={position}
-            date={date}
-            jobRoles={jobRoles}
-          />
-        ))}
+    <section className="py-20 px-24 bg-gray-50 ">
+      <div className="px-8">
+        <Tags textTag="Experience" />
+        <div className="flex justify-center mt-4 mb-12 text-gray-600 text-xl font-normal">
+          <span className="text-gray-600 text-xl">
+            Here is a quick summary of my most recent experiences:
+          </span>
+        </div>
+        <div>
+          {ExperiencesContent.map(({ logo, position, date, jobRoles }) => (
+            <ExperienceCard
+              companyLogo={logo}
+              position={position}
+              date={date}
+              jobRoles={jobRoles}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
