@@ -3,15 +3,21 @@ import ContentAbout from "./contentAbout";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-24 bg-[#F9FAFB]">
-      <Tags textTag="About me" />
-      <div className="flex">
-        <img
-          className="w-100 h-120 shadow-[-40px_40px_#E5E7EB]  "
-          src="./images/Pic.png"
-          alt="img"
-        />
-        <ContentAbout />
+    <section id="about" className="py-24 px-20 bg-[#F9FAFB]">
+      <div className="mb-12">
+        <Tags textTag="About me" />
+      </div>
+      <div className="flex px-8 ">
+        <div className="flex-1">
+          <img
+            className="w-100 h-120 shadow-[-40px_40px_#E5E7EB]  "
+            src="./images/Pic.png"
+            alt="img"
+          />
+        </div>
+        <div className="flex-1">
+          <ContentAbout />
+        </div>
       </div>
     </section>
   );

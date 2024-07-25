@@ -1,6 +1,6 @@
 const ImageProfile = ({ imgUrl }) => {
   return (
-    <div>
+    <div className="px-8">
       <img
         className="w-[280px] h-80 shadow-[40px_40px_#E5E7EB] border-8 border-white "
         src={imgUrl}

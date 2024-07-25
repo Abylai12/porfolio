@@ -1,9 +1,10 @@
 import About from "@/components/About/about";
+import Contact from "@/components/contact";
 import Experience from "@/components/experience/experience";
 import Intro from "@/components/intro/intro";
 import Skill from "@/components/skill/skill";
 import Work from "@/components/work";
-const app = ["next", "react"];
+
 export default function Home() {
   return (
     <main>
@@ -12,11 +13,7 @@ export default function Home() {
       <Skill />
       <Experience />
       <Work />
-      <div>
-        {app.map((app) => (
-          <li>{app}</li>
-        ))}
-      </div>
+      <Contact />
     </main>
   );
 }
