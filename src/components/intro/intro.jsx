@@ -7,11 +7,13 @@ import IntroExperience from "./introExperience";
 
 const Intro = () => {
   return (
-    <section className="md:flex justify-between md:flex-row py-24 px-20 sm:flex sm:flex-col-reverse ">
+    <section className=" justify-between py-24 px-20 min-[640px]:flex max-[640px]:flex max-[640px]:flex-col-reverse ">
       <div className="px-8">
         <div>
-          <h1 className="font-bold text-[60px]">Hi, I'm Tom 👋</h1>
-          <div className="max-w-[600px] text-[#4B5563]">
+          <h1 className="font-bold max-[640px]:mt-12 text-[60px]">
+            Hi, I'm Tom 👋
+          </h1>
+          <div className="max-w-[600px] dark:text-[#D1D5DB] text-[#4B5563]">
             <IntroExperience
               introText=" 
             I specialize in full stack development, particularly with React.js
@@ -22,17 +24,17 @@ const Intro = () => {
             />
           </div>
         </div>
-        <div className="flex items-center mt-6  text-[#4B5563]">
+        <div className="flex items-center mt-6  dark:text-[#D1D5DB]  text-[#4B5563]">
           <div className="text-2xl">
             <CiLocationOn />
           </div>
           <span>Ulaanbaatar, Mongolia</span>
         </div>
-        <div className="flex items-center mb-6 text-[#4B5563]">
+        <div className="flex items-center mb-6  dark:text-[#D1D5DB] text-[#4B5563]">
           <div className="bg-[#10B981] h-2 w-2 rounded-full m-2"></div>
           <span>Available for new projects</span>
         </div>
-        <div className="flex text-4xl gap-2  text-[#4B5563]">
+        <div className="flex text-4xl gap-2  dark:text-[#D1D5DB]  text-[#4B5563]">
           <a href="">
             <FiGithub />
           </a>

@@ -1,10 +1,10 @@
 const ContentAbout = () => {
   return (
     <section className="ml-12">
-      <h1 className="font-bold text-[30px] text-gray-900">
+      <h1 className="font-bold text-[30px] dark:text-[#F9FAFB] text-gray-900">
         Curious about me? Here you have it:
       </h1>
-      <div className="font-normal text-[16px] text-gray-600 flex flex-col gap-4">
+      <div className="font-normal text-[16px] text-gray-600 dark:text-[#D1D5DB] flex flex-col gap-4">
         <p>
           I'm a designer turned full stack developer, passionate about React.js
           and Node.js. I excel in blending technical and visual aspects to craft

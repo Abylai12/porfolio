@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <section className="px-24 py-20 flex flex-col items-center">
       <Tags textTag="Get in touch" />
-      <span className="text-xl text-gray-600 font-normal max-w-[576px] text-center mt-4 mb-12">
+      <span className="text-xl dark:text-[#D1D5DB] text-gray-600 font-normal max-w-[576px] text-center mt-4 mb-12">
         What’s next? Feel free to reach out to me if you're looking for a
         developer, have a query, or simply want to connect.
       </span>
@@ -33,7 +33,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex flex-col items-center gap-2">
-          <span className="text-base text-gray-600">
+          <span className="text-base dark:text-[#D1D5DB] text-gray-600">
             You may also find me on these platforms!
           </span>
           <div className="flex gap-2 ">
