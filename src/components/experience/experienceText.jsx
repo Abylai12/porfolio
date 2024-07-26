@@ -1,11 +1,11 @@
 const ExperienceCard = ({ companyLogo, position, date, jobRoles }) => {
   return (
     <section className="p-8 bg-white dark:bg-[#1F2937] rounded-xl mb-12">
-      <div className="flex justify-between">
+      <div className="flex  max-[640px]:flex-col  justify-between">
         <div className="flex-1">
           <img src={companyLogo} alt="" />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 max-[640px]:order-last">
           <h1 className="font-bold text-gray-900 dark:text-[#F9FAFB] text-xl">
             {position}
           </h1>

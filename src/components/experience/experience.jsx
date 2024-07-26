@@ -37,7 +37,7 @@ const Experience = () => {
       <div className="px-8">
         <Tags textTag="Experience" />
         <div className="flex justify-center mt-4 mb-12 text-gray-600 text-xl font-normal">
-          <span className="text-gray-600 dark:text-[#D1D5DB] text-xl">
+          <span className="text-gray-600 text-center dark:text-[#D1D5DB] text-xl">
             Here is a quick summary of my most recent experiences:
           </span>
         </div>

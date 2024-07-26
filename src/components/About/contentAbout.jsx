@@ -1,7 +1,7 @@
 const ContentAbout = () => {
   return (
     <section className="ml-12">
-      <h1 className="font-bold text-[30px] dark:text-[#F9FAFB] text-gray-900">
+      <h1 className="font-bold text-3xl dark:text-[#F9FAFB] text-gray-900">
         Curious about me? Here you have it:
       </h1>
       <div className="font-normal text-[16px] text-gray-600 dark:text-[#D1D5DB] flex flex-col gap-4">

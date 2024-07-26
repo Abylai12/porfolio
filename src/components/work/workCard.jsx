@@ -5,7 +5,7 @@ const WorkCard = ({ proImg, proTitle, proText, useApp, index }) => {
   return (
     <section
       className={`${
-        index % 2 == 0 ? "flex" : "flex-row-reverse flex"
+        index % 2 == 0 ? "sm:flex" : "sm:flex-row-reverse sm:flex"
       } shadow-xl py-8 px-8 rounded-x`}
     >
       <div className="flex-1 bg-gray-50 dark:bg-[#374151] p-12 flex justify-center items-center">
@@ -15,11 +15,11 @@ const WorkCard = ({ proImg, proTitle, proText, useApp, index }) => {
         <h1 className="text-xl font-bold dark:text-[#F9FAFB] text-gray-900">
           {proTitle}{" "}
         </h1>
-        <p className="text-base dark:text-[#D1D5DB] text-gray-600 font-normal">
+        <p className="text-base my-6 dark:text-[#D1D5DB] text-gray-600 font-normal">
           {proText}
         </p>
         <div className="flex flex-wrap gap-2">{useApp}</div>
-        <button>
+        <button className="my-6">
           <a href="">
             <FiExternalLink />
           </a>

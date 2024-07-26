@@ -14,7 +14,7 @@ const Contact = () => {
         developer, have a query, or simply want to connect.
       </span>
       <div className="mb-12 ">
-        <div className="flex items-center mb-4">
+        <div className="sm:flex items-center mb-4">
           <div className="text-[32px]">
             <MdForwardToInbox />
           </div>
@@ -23,7 +23,7 @@ const Contact = () => {
             <FiCopy />
           </div>
         </div>
-        <div className="flex mb-12 items-center">
+        <div className="sm:flex mb-12 items-center">
           <div className="text-[32px]">
             <MdForwardToInbox />
           </div>

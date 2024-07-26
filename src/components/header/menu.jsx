@@ -1,20 +1,20 @@
 const menuList = [
   { menuId: "Id01", label: "Home", link: "/" },
   { menuId: "Id02", label: "About", link: "/#about" },
-  { menuId: "Id03", label: "Work", link: "/#work" },
+  { menuId: "Id03", label: "Testimonials", link: "/#testimnolials" },
   { menuId: "Id04", label: "Contact", link: "/#contact" },
 ];
-const Menu = () => {
+const Menu = ({ className }) => {
   return (
-    <div>
-      <ul className="flex gap-4">
-        {menuList.map((menu) => (
-          <li key={menu.menuId}>
-            <a href={menu.link}>{menu.label}</a>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul className={`${className} gap-4`}>
+      {menuList.map((menu) => (
+        <li key={menu.menuId}>
+          <a className="text-gray-600 text-base leading-8" href={menu.link}>
+            {menu.label}
+          </a>
+        </li>
+      ))}
+    </ul>
   );
 };
 

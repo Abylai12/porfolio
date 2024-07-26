@@ -62,7 +62,7 @@ const Work = () => {
       <div>
         <Tags textTag="Work" />
         <div className="flex justify-center">
-          <span className="text-xl text-gray-600 mt-4 mb-12">
+          <span className="text-xl text-center text-gray-600 mt-4 mb-12">
             Some of the noteworthy projects I have built:
           </span>
         </div>

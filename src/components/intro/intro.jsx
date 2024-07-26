@@ -4,15 +4,14 @@ import { FiTwitter } from "react-icons/fi";
 import { FiFigma } from "react-icons/fi";
 import ImageProfile from "./image-profile";
 import IntroExperience from "./introExperience";
+// min-[640px]:flex max-[640px]:flex max-[640px]:flex-col-reverse
 
 const Intro = () => {
   return (
-    <section className=" justify-between py-24 px-20 min-[640px]:flex max-[640px]:flex max-[640px]:flex-col-reverse ">
-      <div className="px-8">
+    <section className=" justify-between flex flex-col-reverse  sm:py-24 sm:px-20 ">
+      <div className="px-4 my-12 ">
         <div>
-          <h1 className="font-bold max-[640px]:mt-12 text-[60px]">
-            Hi, I'm Tom 👋
-          </h1>
+          <h1 className="font-bold text-4xl  sm:text-[60px]">Hi, I'm Tom 👋</h1>
           <div className="max-w-[600px] dark:text-[#D1D5DB] text-[#4B5563]">
             <IntroExperience
               introText=" 
