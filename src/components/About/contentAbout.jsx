@@ -1,6 +1,6 @@
 const ContentAbout = () => {
   return (
-    <section className="ml-12">
+    <section className="sm:ml-12">
       <h1 className="font-bold text-3xl dark:text-[#F9FAFB] text-gray-900">
         Curious about me? Here you have it:
       </h1>
@@ -25,7 +25,7 @@ const ContentAbout = () => {
         </p>
         <p>Finally, some quick bits about me.</p>
         <div>
-          <ul className="list-disc md:flex gap-8">
+          <ul className="list-disc sm:flex ml-4 gap-8">
             <li>B.E. in Computer Engineering</li>
             <li>Avid learner</li>
             <li>Full time freelancer</li>

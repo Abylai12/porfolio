@@ -33,8 +33,8 @@ const ExperiencesContent = [
 
 const Experience = () => {
   return (
-    <section className="py-20 px-24 dark:bg-[#111827] bg-gray-50 ">
-      <div className="px-8">
+    <section className="px-4 py-16 sm:py-20 sm:px-24 dark:bg-[#111827] bg-gray-50 ">
+      <div className="sm:px-8">
         <Tags textTag="Experience" />
         <div className="flex justify-center mt-4 mb-12 text-gray-600 text-xl font-normal">
           <span className="text-gray-600 text-center dark:text-[#D1D5DB] text-xl">

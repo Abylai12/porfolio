@@ -6,12 +6,24 @@ const WorkCard = ({ proImg, proTitle, proText, useApp, index }) => {
     <section
       className={`${
         index % 2 == 0 ? "sm:flex" : "sm:flex-row-reverse sm:flex"
-      } shadow-xl py-8 px-8 rounded-x`}
+      } rounded-xl shadow-xl mb-6`}
     >
-      <div className="flex-1 bg-gray-50 dark:bg-[#374151] p-12 flex justify-center items-center">
+      <div
+        className={`${
+          index % 2 == 0
+            ? "sm:rounded-tl-xl sm:rounded-bl-xl"
+            : "sm:rounded-tr-xl sm:rounded-br-xl"
+        } flex-1 py-8 px-8 bg-gray-50 dark:bg-[#374151] sm:p-12 flex justify-center items-center rounded-t-xl sm:rounded-t-none`}
+      >
         <img src={proImg} alt="" />
       </div>
-      <div className="flex-1 bg-white dark:bg-[#1F2937] p-14 flex flex-col justify-between">
+      <div
+        className={`${
+          index % 2 == 0
+            ? "sm:rounded-tr-xl sm:rounded-br-xl"
+            : "sm:rounded-tl-xl sm:rounded-bl-xl"
+        } flex-1 py-8 px-8 bg-white dark:bg-[#1F2937] sm:p-14 flex flex-col justify-between rounded-b-xl sm:rounded-b-none  `}
+      >
         <h1 className="text-xl font-bold dark:text-[#F9FAFB] text-gray-900">
           {proTitle}{" "}
         </h1>

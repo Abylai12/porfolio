@@ -2,10 +2,10 @@ import Tags from "../tags/tags";
 
 const Skill = () => {
   return (
-    <section className="px-24 py-20">
+    <section className="px-4 py-16 sm:px-24 sm:py-20">
       <Tags textTag="Skills" />
       <div className="">
-        <div className="flex justify-center mt-4 text-gray-600 text-xl">
+        <div className="flex justify-center mt-4 text-gray-600 text-center text-xl">
           <span>
             The skills, and tools and technologies i am really good at:
           </span>

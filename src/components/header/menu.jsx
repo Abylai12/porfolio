@@ -9,7 +9,10 @@ const Menu = ({ className }) => {
     <ul className={`${className} gap-4`}>
       {menuList.map((menu) => (
         <li key={menu.menuId}>
-          <a className="text-gray-600 text-base leading-8" href={menu.link}>
+          <a
+            className="text-gray-600 text-base leading-8 dark:text-gray-100"
+            href={menu.link}
+          >
             {menu.label}
           </a>
         </li>

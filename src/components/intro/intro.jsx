@@ -8,10 +8,12 @@ import IntroExperience from "./introExperience";
 
 const Intro = () => {
   return (
-    <section className=" justify-between flex flex-col-reverse  sm:py-24 sm:px-20 ">
-      <div className="px-4 my-12 ">
+    <section className=" justify-between flex-col-reverse flex sm:flex-row sm:py-24 sm:px-20 ">
+      <div className="px-8 my-12 ">
         <div>
-          <h1 className="font-bold text-4xl  sm:text-[60px]">Hi, I'm Tom 👋</h1>
+          <h1 className="font-bold mb-2 text-4xl  sm:text-[60px]">
+            Hi, I'm Tom 👋
+          </h1>
           <div className="max-w-[600px] dark:text-[#D1D5DB] text-[#4B5563]">
             <IntroExperience
               introText=" 

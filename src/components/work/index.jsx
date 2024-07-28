@@ -58,16 +58,16 @@ const proList = [
 ];
 const Work = () => {
   return (
-    <section className="px-20 py-24">
+    <section className="px-4 py-16 sm:px-20 sm:py-24">
       <div>
         <Tags textTag="Work" />
         <div className="flex justify-center">
-          <span className="text-xl text-center text-gray-600 mt-4 mb-12">
+          <span className="text-xl text-center text-gray-600 mt-4 mb-6 sm:mb-12">
             Some of the noteworthy projects I have built:
           </span>
         </div>
       </div>
-      <div>
+      <div className="rounded-2xl">
         {proList.map(({ proImg, proTitle, proText, useApp }, idx) => (
           <WorkCard
             key={idx}

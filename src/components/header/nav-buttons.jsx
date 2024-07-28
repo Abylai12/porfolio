@@ -15,7 +15,7 @@ const NavButtons = () => {
         />
       ) : (
         <MdOutlineDarkMode
-          className="hover:cursor-pointer"
+          className="hover:cursor-pointer dark:text-gray-100 text-3xl"
           onClick={() => {
             setTheme("light");
           }}
