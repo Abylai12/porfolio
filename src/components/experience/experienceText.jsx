@@ -10,8 +10,8 @@ const ExperienceCard = ({ companyLogo, position, date, jobRoles }) => {
             {position}
           </h1>
           <ul className="mt-4 list-disc text-base text-gray-600 dark:text-[#D1D5DB] font-normal ml-4">
-            {jobRoles.map((role) => (
-              <li>{role}</li>
+            {jobRoles.map((role, idx) => (
+              <li key={idx}>{role}</li>
             ))}
           </ul>
         </div>

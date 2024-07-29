@@ -4,7 +4,8 @@ import { FiTwitter } from "react-icons/fi";
 import { FiFigma } from "react-icons/fi";
 import ImageProfile from "./image-profile";
 import IntroExperience from "./introExperience";
-// min-[640px]:flex max-[640px]:flex max-[640px]:flex-col-reverse
+
+import { motion } from "framer-motion";
 
 const Intro = () => {
   return (

@@ -76,7 +76,6 @@ const Work = () => {
             proTitle={proTitle}
             proText={proText}
             useApp={useApp.map((app, idx) => {
-              console.log("app", app);
               return <Tags key={idx} textTag={app} />;
             })}
           />

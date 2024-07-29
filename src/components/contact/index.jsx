@@ -7,7 +7,10 @@ import { FiFigma } from "react-icons/fi";
 
 const Contact = () => {
   return (
-    <section className="sm:px-24 sm:py-20 px-4 py-16 flex flex-col items-center">
+    <section
+      id="contact"
+      className="sm:px-24 sm:py-20 px-4 py-16 flex flex-col items-center"
+    >
       <Tags textTag="Get in touch" />
       <span className="text-xl dark:text-[#D1D5DB] text-gray-600 font-normal max-w-[576px] text-center mt-4 mb-12">
         What’s next? Feel free to reach out to me if you're looking for a

@@ -7,22 +7,24 @@ const NavButtons = () => {
     <div className="flex max-[640px]:block items-center">
       <span className="text-gray-600 mr-4 max-[640px]:hidden ">|</span>
       {theme === "light" ? (
-        <MdOutlineLightMode
-          className="hover:cursor-pointer"
+        <button
           onClick={() => {
             setTheme("dark");
           }}
-        />
+        >
+          <MdOutlineLightMode />
+        </button>
       ) : (
-        <MdOutlineDarkMode
-          className="hover:cursor-pointer dark:text-gray-100 text-3xl"
+        <button
           onClick={() => {
             setTheme("light");
           }}
-        />
+        >
+          <MdOutlineDarkMode />
+        </button>
       )}
 
-      <button className="py-[6px] px-4 ml-4 max-[640px]:hidden dark:text-black text-white dark:bg-white  bg-black  rounded-xl">
+      <button className="py-[6px] px-4 ml-4 max-[640px]:hidden dark:text-black text-white dark:bg-white bg-black rounded-xl">
         Download CV
       </button>
     </div>

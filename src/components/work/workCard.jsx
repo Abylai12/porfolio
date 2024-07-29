@@ -1,7 +1,6 @@
 import { FiExternalLink } from "react-icons/fi";
 
 const WorkCard = ({ proImg, proTitle, proText, useApp, index }) => {
-  console.log(index);
   return (
     <section
       className={`${

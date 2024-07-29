@@ -42,8 +42,9 @@ const Experience = () => {
           </span>
         </div>
         <div>
-          {ExperiencesContent.map(({ logo, position, date, jobRoles }) => (
+          {ExperiencesContent.map(({ logo, position, date, jobRoles }, idx) => (
             <ExperienceCard
+              key={idx}
               companyLogo={logo}
               position={position}
               date={date}
