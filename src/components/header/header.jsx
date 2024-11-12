@@ -1,6 +1,6 @@
 import NavSection from "./nav-section";
 
-import React, { useState } from "react";
+import React from "react";
 
 import RespoNav from "./respoNav";
 

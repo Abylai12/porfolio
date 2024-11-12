@@ -1,7 +1,6 @@
 const menuList = [
   { menuId: "Id01", label: "Home", link: "/" },
   { menuId: "Id02", label: "About", link: "/#about" },
-  { menuId: "Id03", label: "Testimonials", link: "/#testimnolials" },
   { menuId: "Id04", label: "Contact", link: "/#contact" },
 ];
 const Menu = ({ className }) => {
