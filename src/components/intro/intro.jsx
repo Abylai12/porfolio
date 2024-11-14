@@ -5,7 +5,7 @@ import { FiFigma } from "react-icons/fi";
 import ImageProfile from "./image-profile";
 import IntroExperience from "./introExperience";
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const Intro = () => {
   return (

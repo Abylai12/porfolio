@@ -29,9 +29,9 @@ const RespoNav = () => {
               <NavButtons />
             </div>
             <div className="flex justify-center">
-              <button className="py-[6px] w-screen mx-4 dark:text-black text-white dark:bg-white  bg-black  rounded-xl">
+              {/* <button className="py-[6px] w-screen mx-4 dark:text-black text-white dark:bg-white  bg-black  rounded-xl">
                 Download CV
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

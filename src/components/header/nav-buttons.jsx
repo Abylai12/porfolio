@@ -24,9 +24,9 @@ const NavButtons = () => {
         </button>
       )}
 
-      <button className="py-[6px] px-4 ml-4 max-[640px]:hidden dark:text-black text-white dark:bg-white bg-black rounded-xl">
+      {/* <button className="py-[6px] px-4 ml-4 max-[640px]:hidden dark:text-black text-white dark:bg-white bg-black rounded-xl">
         Download CV
-      </button>
+      </button> */}
     </div>
   );
 };
